@@ -89,3 +89,151 @@ html,body{
     letter-spacing: -1px;
     line-height: 1.2;
 }
+#homefoot{
+    padding: 5vw 15vw;
+}
+#homefoot p{
+    font-size: 2vw;
+    font-weight: 350;
+
+}
+#homefoot p::selection{
+    color: #fff;
+    background-color: #000;
+}
+#featured{
+    padding: 10vw 15vw;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    text-transform: capitalize;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.doit{
+    display: flex;
+    padding: 2vw;   
+}
+.doit h1{
+    margin-left: 30px;
+    font-weight: 200;
+    text-transform: lowercase;
+}
+.doit video{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+#fheading h1{
+    width: 70%;
+    font-size: 10vw;
+    font-weight: 450;
+    line-height: 1;
+}
+
+#featuredbox{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5vw;
+}
+#featuredbox h3{
+    padding-bottom: 3vw;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#fleft{
+    width: 45%;
+    height: inherit;
+    padding-right: 3vw;
+    object-fit: contain;
+}
+.felem{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 3vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+.felem video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+.felem:hover{
+    transform: translateY(-20px);
+}
+#fright{
+    width: 45%;
+    padding: 7vw  3vw 4vw 0;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn button{
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    font-weight: 400;
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 100px;
+    background-color: #fff;
+}
+#btn button:hover{
+    transition: ease-in-out 1s;
+    transform: scale3d(2);
+    transform: translate3d(5);
+    color: white;
+    background-color: #000;
+    translate:-10px -10px 5px ;
+    font-size: 1.5vw;
+}
+#dev{
+    width: 100%;
+    padding: 15vw 15vw;
+    
+}
+#dev h1{
+    font-size: 4vw;
+    width: 60%;
+    font-weight: 450;
+    line-height: 1.2;
+}
+#dev p{
+    width: 55%;
+    font-weight: 450;
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+#slides{
+    padding: 2vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+    width: 30%;
+}
+.slide h3{
+    text-transform: capitalize;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.slide .img{
+    height: 250px; 
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    object-fit: cover;
+    transition:transform 1s ease ;
+}
